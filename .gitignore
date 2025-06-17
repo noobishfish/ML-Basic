@@ -8,3 +8,9 @@ __pycache__
 *.db
 *.sqlite3
 buf
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/ML-Basic.iml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
