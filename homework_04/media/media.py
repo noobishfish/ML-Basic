@@ -4,6 +4,8 @@ from debugpy.common.timestamp import current
 
 
 class MediaFile:
+    storage_type = Storage
+
     def __init__(self,
                  filename: str,
                  size: float,
@@ -15,7 +17,7 @@ class MediaFile:
         self.created_date = created_date
         self.created_by = created_by
         self.file = file
-        self.storage_type = Storage
+
 
     def __str__(self):
         return (f'Filename: {self.filename}\n'
